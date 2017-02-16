@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7B71EF1C1E55706900A2DD9B"
+               BlueprintIdentifier = "7B71EF5B1E55784E00A2DD9B"
                BuildableName = "ResolveHtml.app"
                BlueprintName = "ResolveHtml"
                ReferencedContainer = "container:ResolveHtml.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7B71EF351E55706900A2DD9B"
+               BlueprintIdentifier = "7B71EF741E55784F00A2DD9B"
                BuildableName = "ResolveHtmlTests.xctest"
                BlueprintName = "ResolveHtmlTests"
                ReferencedContainer = "container:ResolveHtml.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7B71EF401E55706900A2DD9B"
+               BlueprintIdentifier = "7B71EF7F1E55784F00A2DD9B"
                BuildableName = "ResolveHtmlUITests.xctest"
                BlueprintName = "ResolveHtmlUITests"
                ReferencedContainer = "container:ResolveHtml.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7B71EF1C1E55706900A2DD9B"
+            BlueprintIdentifier = "7B71EF5B1E55784E00A2DD9B"
             BuildableName = "ResolveHtml.app"
             BlueprintName = "ResolveHtml"
             ReferencedContainer = "container:ResolveHtml.xcodeproj">
@@ -75,12 +75,19 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7B71EF1C1E55706900A2DD9B"
+            BlueprintIdentifier = "7B71EF5B1E55784E00A2DD9B"
             BuildableName = "ResolveHtml.app"
             BlueprintName = "ResolveHtml"
             ReferencedContainer = "container:ResolveHtml.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -94,7 +101,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7B71EF1C1E55706900A2DD9B"
+            BlueprintIdentifier = "7B71EF5B1E55784E00A2DD9B"
             BuildableName = "ResolveHtml.app"
             BlueprintName = "ResolveHtml"
             ReferencedContainer = "container:ResolveHtml.xcodeproj">
