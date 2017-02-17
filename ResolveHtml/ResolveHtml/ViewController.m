@@ -7,9 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "TFHpple.h"
-#import "TFHppleElement.h"
-#import "XPathQuery.h"
+#import "RHViewController.h"
 
 @interface ViewController ()
 
@@ -19,25 +17,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *url = @"http://www.baidu.com";
-    
-    NSData *data = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:url]];
-    
-    TFHpple *xpathParser = [[TFHpple alloc] initWithHTMLData:data];
-    
-    NSArray *dataArr = [xpathParser searchWithXPathQuery:@"//a"];
-    
-    for (TFHppleElement *element in dataArr) {
-        
-        if ([[element objectForKey:@"class"] isEqualToString:@"title"]) {
-            NSLog(@"%@",element.text);
-            
-        }
-        
-    }
+    [self configeUI];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)configeUI
+{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.backgroundColor = [UIColor redColor];
+    button.frame = CGRectMake(0, 0, 100, 100);
+    button.center = self.view.center;
+    [button addTarget:self
+               action:@selector(click)
+     forControlEvents:UIControlEventTouchDown];
+    [self.view addSubview:button];
+}
+
+- (void)click
+{
+    RHViewController *rhVc = [[RHViewController alloc] init];
+    [self.navigationController pushViewController:rhVc animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

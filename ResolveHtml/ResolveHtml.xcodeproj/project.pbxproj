@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B3205341E5683AF0095FF19 /* XLPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3205331E5683AF0095FF19 /* XLPathQuery.m */; };
 		7B71EF611E55784E00A2DD9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B71EF601E55784E00A2DD9B /* main.m */; };
 		7B71EF641E55784E00A2DD9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B71EF631E55784E00A2DD9B /* AppDelegate.m */; };
 		7B71EF671E55784E00A2DD9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B71EF661E55784E00A2DD9B /* ViewController.m */; };
@@ -17,6 +18,10 @@
 		7B71EF9A1E5578C900A2DD9B /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B71EF961E5578C800A2DD9B /* TFHppleElement.m */; };
 		7B71EF9B1E5578C900A2DD9B /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B71EF981E5578C800A2DD9B /* XPathQuery.m */; };
 		7B71EF9E1E55790500A2DD9B /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B71EF9D1E55790500A2DD9B /* libxml2.2.tbd */; };
+		7B71EFA21E557CCC00A2DD9B /* RHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B71EFA11E557CCC00A2DD9B /* RHViewController.m */; };
+		7B71EFCD1E55AB4D00A2DD9B /* XLRHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B71EFCC1E55AB4D00A2DD9B /* XLRHtml.m */; };
+		7B71EFD01E55AB9600A2DD9B /* XLRHtmlElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B71EFCF1E55AB9600A2DD9B /* XLRHtmlElement.m */; };
+		7B71EFD31E55ABC800A2DD9B /* XLRHtmlQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B71EFD21E55ABC800A2DD9B /* XLRHtmlQuery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B3205321E5683AF0095FF19 /* XLPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPathQuery.h; sourceTree = "<group>"; };
+		7B3205331E5683AF0095FF19 /* XLPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPathQuery.m; sourceTree = "<group>"; };
 		7B71EF5C1E55784E00A2DD9B /* ResolveHtml.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResolveHtml.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B71EF601E55784E00A2DD9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B71EF621E55784E00A2DD9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +65,14 @@
 		7B71EF971E5578C800A2DD9B /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
 		7B71EF981E5578C800A2DD9B /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 		7B71EF9D1E55790500A2DD9B /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		7B71EFA01E557CCC00A2DD9B /* RHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHViewController.h; sourceTree = "<group>"; };
+		7B71EFA11E557CCC00A2DD9B /* RHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHViewController.m; sourceTree = "<group>"; };
+		7B71EFCB1E55AB4D00A2DD9B /* XLRHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRHtml.h; sourceTree = "<group>"; };
+		7B71EFCC1E55AB4D00A2DD9B /* XLRHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLRHtml.m; sourceTree = "<group>"; };
+		7B71EFCE1E55AB9600A2DD9B /* XLRHtmlElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRHtmlElement.h; sourceTree = "<group>"; };
+		7B71EFCF1E55AB9600A2DD9B /* XLRHtmlElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLRHtmlElement.m; sourceTree = "<group>"; };
+		7B71EFD11E55ABC800A2DD9B /* XLRHtmlQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRHtmlQuery.h; sourceTree = "<group>"; };
+		7B71EFD21E55ABC800A2DD9B /* XLRHtmlQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLRHtmlQuery.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +125,8 @@
 		7B71EF5E1E55784E00A2DD9B /* ResolveHtml */ = {
 			isa = PBXGroup;
 			children = (
+				7B71EFCA1E55AAB000A2DD9B /* XLRHtml */,
+				7B71EF9F1E557CAA00A2DD9B /* Founction */,
 				7B71EF921E5578C800A2DD9B /* Classes */,
 				7B71EF621E55784E00A2DD9B /* AppDelegate.h */,
 				7B71EF631E55784E00A2DD9B /* AppDelegate.m */,
@@ -167,6 +184,30 @@
 				7B71EF9D1E55790500A2DD9B /* libxml2.2.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B71EF9F1E557CAA00A2DD9B /* Founction */ = {
+			isa = PBXGroup;
+			children = (
+				7B71EFA01E557CCC00A2DD9B /* RHViewController.h */,
+				7B71EFA11E557CCC00A2DD9B /* RHViewController.m */,
+			);
+			path = Founction;
+			sourceTree = "<group>";
+		};
+		7B71EFCA1E55AAB000A2DD9B /* XLRHtml */ = {
+			isa = PBXGroup;
+			children = (
+				7B71EFCB1E55AB4D00A2DD9B /* XLRHtml.h */,
+				7B71EFCC1E55AB4D00A2DD9B /* XLRHtml.m */,
+				7B71EFCE1E55AB9600A2DD9B /* XLRHtmlElement.h */,
+				7B71EFCF1E55AB9600A2DD9B /* XLRHtmlElement.m */,
+				7B71EFD11E55ABC800A2DD9B /* XLRHtmlQuery.h */,
+				7B71EFD21E55ABC800A2DD9B /* XLRHtmlQuery.m */,
+				7B3205321E5683AF0095FF19 /* XLPathQuery.h */,
+				7B3205331E5683AF0095FF19 /* XLPathQuery.m */,
+			);
+			path = XLRHtml;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,9 +347,14 @@
 				7B71EF671E55784E00A2DD9B /* ViewController.m in Sources */,
 				7B71EF641E55784E00A2DD9B /* AppDelegate.m in Sources */,
 				7B71EF611E55784E00A2DD9B /* main.m in Sources */,
+				7B71EFD01E55AB9600A2DD9B /* XLRHtmlElement.m in Sources */,
 				7B71EF991E5578C800A2DD9B /* TFHpple.m in Sources */,
 				7B71EF9B1E5578C900A2DD9B /* XPathQuery.m in Sources */,
 				7B71EF9A1E5578C900A2DD9B /* TFHppleElement.m in Sources */,
+				7B3205341E5683AF0095FF19 /* XLPathQuery.m in Sources */,
+				7B71EFA21E557CCC00A2DD9B /* RHViewController.m in Sources */,
+				7B71EFD31E55ABC800A2DD9B /* XLRHtmlQuery.m in Sources */,
+				7B71EFCD1E55AB4D00A2DD9B /* XLRHtml.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +575,7 @@
 				7B71EF8B1E55784F00A2DD9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B71EF8C1E55784F00A2DD9B /* Build configuration list for PBXNativeTarget "ResolveHtmlTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +584,7 @@
 				7B71EF8E1E55784F00A2DD9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B71EF8F1E55784F00A2DD9B /* Build configuration list for PBXNativeTarget "ResolveHtmlUITests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +593,7 @@
 				7B71EF911E55784F00A2DD9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
