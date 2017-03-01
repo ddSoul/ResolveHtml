@@ -22,9 +22,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-//    [self resolveHtml:@""];
-    [self test];
-    // Do any additional setup after loading the view.
 }
 
 - (void)test
