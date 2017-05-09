@@ -36,6 +36,7 @@
     return [self initWithData:data];
 }
 
+
 - (NSArray *)searchWithXPathQuery:(NSString *)query
 {
     NSArray * detailNodes = nil;
