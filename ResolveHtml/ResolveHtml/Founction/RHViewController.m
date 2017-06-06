@@ -7,10 +7,11 @@
 //
 
 #import "RHViewController.h"
+
 #import "TFHpple.h"
-#import "TFHppleElement.h"
-#import "XPathQuery.h"
 #import "XLRHtml.h"
+#import "XPathQuery.h"
+#import "TFHppleElement.h"
 #import "XLRHtmlElement.h"
 
 @interface RHViewController ()
@@ -21,19 +22,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    [self xl_resolveHtml:@"http://www.jianshu.com/u/4a62c2dce089"];
 }
 
-- (void)test
+- (void)xl_resolveHtml:(NSString *)urlString
 {
     
-    NSString *url = @"http://www.jianshu.com/c/154657b0eac9";
-    
-    NSData *data = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:url]];
+    NSData *data = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:urlString]];
     
     XLRHtml *reObj = [[XLRHtml alloc] initHtmlData:data];
     
-    NSArray *dataArr = [reObj searchWithXPathQuery:@"//a"];
+    NSArray *dataArr = [reObj searchWithXPathQuery:@"//p"];
     
     for (XLRHtmlElement *element in dataArr) {
         
